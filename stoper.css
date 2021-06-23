@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:90vw;
+    max-width:1200px;
+    height:60vh;
+    margin:15vh auto;
+    font-family: sans-serif;
+    background-image:linear-gradient(45deg, #EBC897 20%, #F2AF99 80%)
+}
+button{
+    margin:5px;
+    padding:8px;
+    border-radius: 5px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: transparent;
+    box-shadow: 4px 3px #f3a68c;
+}
+.time, .time div{
+    margin-top:15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media(min-width:768px){
+    .buttons, .time{
+        font-size: 2em;
+    }
+}
